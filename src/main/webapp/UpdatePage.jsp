@@ -1,9 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>webCoreStone </title>
+    <title>WebCoreStone  </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -30,8 +32,8 @@
     <!-- Navbar Start -->
     <div class="container-fluid bg-white position-relative">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand text-secondary">
-                <h1 class="display-4 text-uppercase">WebCoreStone</h1>
+            <a href="index" class="navbar-brand text-secondary">
+                <h1 class="display-4 text-uppercase">WebCoreStone </h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -41,6 +43,11 @@
                     <a href="index" class="nav-item nav-link">Home</a>
                     <a href="about" class="nav-item nav-link">About</a>
                     <a href="service" class="nav-item nav-link">Services</a>
+                    <a href="Registration" class="nav-item nav-link">Register</a>
+                   <a href="adminlogin" class="nav-item nav-link">Admin_Login</a>
+                   <a href="getSingleData" class="nav-item nav-link">Student Login</a>
+                   <a href="Courses" class="nav-item nav-link">Courses</a>
+                   
                     <a href="project" class="nav-item nav-link">Projects</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
@@ -49,7 +56,7 @@
                             <a href="testimonial" class="dropdown-item">Strategic_Five</a>
                         </div>
                     </div>
-                    <a href="contact" class="nav-item nav-link active">Contact</a>
+                    <a href="contact" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="d-none d-lg-flex align-items-center pl-4">
                     <i class="fa fa-2x fa-mobile-alt text-primary mr-3"></i>
@@ -64,69 +71,103 @@
     <!-- Navbar End -->
 
 
-    <!-- Page Header Start -->
+    <!-- <!-- Page Header Start -->
     <div class="page-header container-fluid bg-primary d-flex flex-column align-items-center justify-content-center">
-        <h1 class="display-3 text-uppercase mb-3">Contact</h1>
+        <h1 class="display-3 text-uppercase mb-3">Register</h1>
         <div class="d-inline-flex text-white">
             <h6 class="text-uppercase m-0"><a class="text-white" href="">Home</a></h6>
             <h6 class="m-0 px-3">/</h6>
-            <h6 class="text-uppercase m-0">Contact</h6>
+            <h6 class="text-uppercase m-0">Prices</h6>
         </div>
     </div>
-    <!-- Page Header Start -->
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Update Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            background-color: #fff;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        pre {
+            padding: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
 
+<h1><marquee>UPDATE PAGE OPENED</marquee></h1>
 
-    <!-- Contact Start -->
-    <div class="container-fluid py-5 px-0">
-        <h1 class="display-4 text-uppercase text-center mt-5 mb-5">Contact Us</h1>
-        <div class="row mx-0">
-            <div class="col-12 px-0" style="height: 500px;">
-                <div class="position-relative h-100">
-                    <iframe class="position-relative w-100 h-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
-                </div>
-            </div>
-        </div>
-        <div class="row mx-0 justify-content-center" style="margin-top: -200px;">
-            <div class="col-lg-6 col-md-8 col-sm-10 px-0">
-                <div class="contact-form bg-white rounded p-5">
-                    <div id="success"></div>
-                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                        <div class="form-row">
-                            <div class="col-md-6">
-                                <div class="control-group">
-                                    <input type="text" class="form-control bg-light border-0 p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="control-group">
-                                    <input type="email" class="form-control bg-light border-0 p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <input type="text" class="form-control bg-light border-0 p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="control-group">
-                            <textarea class="form-control bg-light border-0 py-3 px-4" rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="text-center">
-                            <button class="btn btn-primary text-uppercase py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Contact End -->
+<form action="Update">
+    <pre>
+        <input type="hidden" name="id" value="${data.id}">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" value="${data.fname}">
+        
+        <label for="mname">Middle Name:</label>
+        <input type="text" name="mname" value="${data.mname}">
+        
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" value="${data.lname}">
+        
+        <label for="quali">Qualification:</label>
+        <input type="text" name="quali" value="${data.quali}">
+        
+        <label for="grade">Grade:</label>
+        <input type="text" name="grade" value="${data.grade}">
+        
+        <label for="guaContact">Guardian Contact:</label>
+        <input type="text" name="guaContact" value="${data.guaContact}">
+        
+        <label for="registrationfee">Registration Fee:</label>
+        <input type="text" name="registrationfee" value="${data.registrationfee}">
+        
+        <label for="mobileNo">Mobile Number:</label>
+        <input type="text" name="mobileNo" value="${data.mobileNo}">
+        
+        <label for="address">Address:</label>
+        <input type="text" name="address" value="${data.address}">
+        
+        <input type="submit" value="UPDATE">
+    </pre>
+</form>
 
+</body>
+</html>
 
+    
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
         <div class="row pt-5">
@@ -146,7 +187,7 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
                 <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
-                <p><i class="fa fa-map-marker-alt text-white mr-2"></i>KarveNager, Pune, Bharat</p>
+                <p><i class="fa fa-map-marker-alt text-white mr-2"></i>KarveNager, Pune, BHARAT</p>
                 <p><i class="fa fa-phone-alt text-white mr-2"></i>+91 9766004061</p>
                 <p><i class="fa fa-envelope text-white mr-2"></i>webCoreStone@123gmail.com</p>
             </div>

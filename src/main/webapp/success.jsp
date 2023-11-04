@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,27 +32,31 @@
     <!-- Navbar Start -->
     <div class="container-fluid bg-white position-relative">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand text-secondary">
-                <h1 class="display-4 text-uppercase">WebCoreStone</h1>
+            <a href="index" class="navbar-brand text-secondary">
+                <h1 class="display-4 text-uppercase">WebCoreStone </h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0 pr-3 border-right">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    <a href="price.html" class="nav-item nav-link">Prices</a>
-                    <a href="project.html" class="nav-item nav-link active">Projects</a>
+                    <a href="index" class="nav-item nav-link">Home</a>
+                    <a href="about" class="nav-item nav-link">About</a>
+                    <a href="service" class="nav-item nav-link">Services</a>
+                    <a href="Registration" class="nav-item nav-link">Register</a>
+                   <a href="adminlogin" class="nav-item nav-link">Admin_Login</a>
+                   <a href="getSingleData" class="nav-item nav-link">Student Login</a>
+                   <a href="Courses" class="nav-item nav-link">Courses</a>
+                   
+                    <a href="project" class="nav-item nav-link">Projects</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="team.html" class="dropdown-item">Meat The Team</a>
-                            <a href="testimonial.html" class="dropdown-item">Strategic_Five</a>
+                            <a href="team" class="dropdown-item">Meat The Team</a>
+                            <a href="testimonial" class="dropdown-item">Strategic_Five</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="contact" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="d-none d-lg-flex align-items-center pl-4">
                     <i class="fa fa-2x fa-mobile-alt text-primary mr-3"></i>
@@ -65,109 +71,130 @@
     <!-- Navbar End -->
 
 
-    <!-- Page Header Start -->
+    <!-- <!-- Page Header Start -->
     <div class="page-header container-fluid bg-primary d-flex flex-column align-items-center justify-content-center">
-        <h1 class="display-3 text-uppercase mb-3">Projects</h1>
+        <h1 class="display-3 text-uppercase mb-3">Register</h1>
         <div class="d-inline-flex text-white">
             <h6 class="text-uppercase m-0"><a class="text-white" href="">Home</a></h6>
             <h6 class="m-0 px-3">/</h6>
-            <h6 class="text-uppercase m-0">Projects</h6>
+            <h6 class="text-uppercase m-0">Prices</h6>
         </div>
     </div>
-    <!-- Page Header Start -->
+   
+   
+   <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Success Page</title>
+    <style>
+        body {
+            background-image: url('hand-pointing.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            font-weight: bolder;
+            column-rule-style: solid;
+            color: purple;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
 
+        h1 {
+            text-align: center;
+            color: red;
+        }
 
-    <!-- Portfolio Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <h1 class="display-4 text-uppercase text-center mb-5">Visit Our Projects</h1>
-            <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-outline-dark text-uppercase py-2 px-4 active" data-filter="*">
-                            <i class="fa fa-star text-primary mr-2"></i>All
-                        </li>
-                        <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".first">
-                            <i class="fa fa-laptop-code text-primary mr-2"></i>Design
-                        </li>
-                        <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".second">
-                            <i class="fa fa-mobile-alt text-primary mr-2"></i>Development
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio End -->
+        table {
+            width: 50%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
 
+        table, th, td {
+            border: 1px solid #ccc;
+        }
 
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1><marquee>Register Student Information</marquee></h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>PassWord</th>
+            <th>First Name</th>
+            <th>Middle Name</th>
+            <th>Last Name</th>
+            <th>Date of Birth</th>
+            <th>Qualification</th>
+            <th>Grade</th>
+            <th>Aadhar Number</th>
+            </tr>
+            <tr>
+            <th>Guardian Contact</th>
+            <th>Total Fees</th>
+            <th>Registration Fee</th>
+            <th>Gender</th>
+            <th>Mobile Number</th>
+            <th>Class Mode</th>
+            <th>Address</th>
+            <th>Courses</th>
+            <th>DELETE</th>
+            <th>UPDATE</th>
+        </tr>
+        <c:forEach var="data" items="${data}">
+        <tr>
+            <td>${data.id}</td>
+            <td>${data.uname}</td>
+            <td>${data.pass}</td>
+            <td>${data.fname}</td>
+            <td>${data.mname}</td>
+            <td>${data.lname}</td>
+            <td>${data.dateofbirth}</td>
+            <td>${data.quali}</td>
+            <td>${data.grade}</td>
+            <td>${data.adharno}</td>
+            </tr>
+            </c:forEach>
+            <c:forEach var="data" items="${data}">
+        <tr>
+            <td>${data.guaContact}</td>
+            <td>${data.totalFess}</td>
+            <td>${data.registrationfee}</td>
+            <td>${data.gender}</td>
+            <td>${data.mobileNo}</td>
+            <td>${data.classMode}</td>
+            <td>${data.address}</td>
+            <td>${data.courses}</td>
+            <td><a href="deletePage?id=${data.id}">DELETE</a>
+			<td><a href="UpdatePage?id=${data.id}">UPDATE </a>
+                
+        </tr>
+        </c:forEach>
+    </table>
+</body>
+</html>
+   
+   
+   
+   
+   
+   
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
-                <a href="index.html" class="navbar-brand">
+                <a href="index" class="navbar-brand">
                     <h1 class="m-0 mt-n2 text-white display-4">WebCoreStone</h1>
                 </a>
                 <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
@@ -182,9 +209,9 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
                 <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
-                <p><i class="fa fa-map-marker-alt text-white mr-2"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt text-white mr-2"></i>+012 345 67890</p>
-                <p><i class="fa fa-envelope text-white mr-2"></i>info@example.com</p>
+                <p><i class="fa fa-map-marker-alt text-white mr-2"></i>KarveNager, Pune, BHARAT</p>
+                <p><i class="fa fa-phone-alt text-white mr-2"></i>+91 9766004061</p>
+                <p><i class="fa fa-envelope text-white mr-2"></i>webCoreStone@123gmail.com</p>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Quick Links</h4>

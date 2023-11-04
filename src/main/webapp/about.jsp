@@ -38,19 +38,21 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0 pr-3 border-right">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link active">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    <a href="price.html" class="nav-item nav-link">Prices</a>
-                    <a href="project.html" class="nav-item nav-link">Projects</a>
+                    <a href="index" class="nav-item nav-link">Home</a>
+                    <a href="about" class="nav-item nav-link active">About</a>
+                    <a href="service" class="nav-item nav-link">Services</a>
+                    <a href="Registration" class="nav-item nav-link">Register</a>
+                    <a href="UpdatePage" class="nav-item nav-link">Update</a>
+                   <a href="adminlogin" class="nav-item nav-link">Success</a>
+                    <a href="project" class="nav-item nav-link">Projects</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="team.html" class="dropdown-item">Meat The Team</a>
-                            <a href="testimonial.html" class="dropdown-item">Strategic_Five</a>
+                            <a href="team" class="dropdown-item">Meat The Team</a>
+                            <a href="testimonial" class="dropdown-item">Strategic_Five</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="contact" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="d-none d-lg-flex align-items-center pl-4">
                     <i class="fa fa-2x fa-mobile-alt text-primary mr-3"></i>
@@ -137,7 +139,7 @@
     <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
-                <a href="index.html" class="navbar-brand">
+                <a href="index" class="navbar-brand">
                     <h1 class="m-0 mt-n2 text-white display-4">WebCoreStone</h1>
                 </a>
                 <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>

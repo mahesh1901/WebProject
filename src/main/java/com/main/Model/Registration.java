@@ -7,6 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Registration {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
@@ -20,9 +21,11 @@ public class Registration {
 	private String grade;
 	private long adharno;
 	private long guaContact;
+	private double totalFess;
 	private double registrationfee;
 	private String gender;
 	private long mobileNo;
+	private String classMode;
 	private String address;
 	private String courses;
 	public int getId() {
@@ -120,6 +123,18 @@ public class Registration {
 	}
 	public void setMobileNo(long mobileNo) {
 		this.mobileNo = mobileNo;
+	}
+	public double getTotalFess() {
+		return totalFess;
+	}
+	public void setTotalFess(double totalFess) {
+		this.totalFess = totalFess;
+	}
+	public String getClassMode() {
+		return classMode;
+	}
+	public void setClassMode(String classMode) {
+		this.classMode = classMode;
 	}
 	
 	
