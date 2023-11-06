@@ -34,7 +34,7 @@
     <!-- Navbar Start -->
     <div class="container-fluid bg-white position-relative">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand text-secondary">
+            <a href="index" class="navbar-brand text-secondary">
                 <h1 class="display-4 text-uppercase">WebCoreStone </h1>
             <a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -494,7 +494,7 @@
                         <div class="form-row">
                             <div class="col-md-6">
                                 <div class="control-group">
-                                    <input type="text" class="form-control bg-light border-0 p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <input type="text" class="form-control bg-light border-0 p-4" id="yourName" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -506,11 +506,11 @@
                             </div>
                         </div>
                         <div class="control-group">
-                            <input type="text" class="form-control bg-light border-0 p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                            <input type="text" class="form-control bg-light border-0 p-4" id="courses" placeholder="courses" required="required" data-validation-required-message="Please enter a courses" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <textarea class="form-control bg-light border-0 py-3 px-4" rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <textarea class="form-control bg-light border-0 py-3 px-4" rows="5" id="message" placeholder="message" required="required" data-validation-required-message="Please enter your message"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="text-center">
@@ -529,9 +529,9 @@
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="index" class="navbar-brand">
-                    <h1 class="m-0 mt-n2 text-white display-4">WebCoreStone</h1>
+                    <h1 class="m-0 mt-n2 text-white display-5">WebCoreStone</h1>
                 </a>
-                <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
+                <p> IT institute offering a diverse range of hands-on IT courses, equipping students with the skills to thrive in the tech industry</p>
                 <h6 class="text-uppercase text-white py-2">Follow Us</h6>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -542,7 +542,7 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
-                <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
+                <p>Contact us at Web Core Stone IT Institute to embark on your journey towards IT excellence.</p>
                 <p><i class="fa fa-map-marker-alt text-white mr-2"></i>KarveNager, Pune, BHARAT</p>
                 <p><i class="fa fa-phone-alt text-white mr-2"></i>+91 9766004061</p>
                 <p><i class="fa fa-envelope text-white mr-2"></i>WebCoreStone@123gmail.com</p>
@@ -560,7 +560,7 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Newsletter</h4>
-                <p class="mb-4">Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
+                <p class="mb-4">Join our newsletter to receive exclusive content and discover how Web Core Stone can empower your IT journey.</p>
                 <div class="w-100 mb-3">
                     <div class="input-group">
                         <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
@@ -569,7 +569,7 @@
                         </div>
                     </div>
                 </div>
-                <i>Lorem sit sed elitr sed kasd et</i>
+                <i></i>
             </div>
         </div>
     </div>

@@ -7,7 +7,6 @@
 
 </head>
 <body>
-<form action="/login">
 <!-- partial:index.partial.html -->
 <section>
 
@@ -276,6 +275,7 @@
     <div class="signin">
       <div class="content">
         <h2>Admin Login</h2>
+        <form action="/login">
         <div class="form">
           <div class="inputBox">
             <input type="text" required name=uname>
@@ -293,6 +293,7 @@
             <input type="submit" value="Login">
           </div>
         </div>
+        </form>
       </div>
     </div>
     
