@@ -490,27 +490,27 @@
             <div class="col-lg-6 col-md-8 col-sm-10 px-0">
                 <div class="contact-form bg-white rounded p-5">
                     <div id="success"></div>
-                    <form action="sent" name=sentMessage id="contactForm" novalidate="novalidate">
+                    <form action="sent" >
                         <div class="form-row">
                             <div class="col-md-6">
                                 <div class="control-group">
-                                    <input type="text" class="form-control bg-light border-0 p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <input type="text" class="form-control bg-light border-0 p-4" name="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="control-group">
-                                    <input type="email" class="form-control bg-light border-0 p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <input type="email" class="form-control bg-light border-0 p-4" name="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                         </div>
                         <div class="control-group">
-                            <input type="text" class="form-control bg-light border-0 p-4" id="subject" placeholder="subject" required="required" data-validation-required-message="Please enter a subject" />
+                            <input type="text" class="form-control bg-light border-0 p-4" name="subject" placeholder="subject" required="required" data-validation-required-message="Please enter a subject" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <textarea class="form-control bg-light border-0 py-3 px-4" rows="5" id="message" placeholder="message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <textarea class="form-control bg-light border-0 py-3 px-4" rows="5" name="message" placeholder="message" required="required" data-validation-required-message="Please enter your message"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="text-center">
