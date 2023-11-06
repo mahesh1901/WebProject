@@ -8,13 +8,17 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.main.Model.Enquiryform;
 import com.main.Model.Registration;
 import com.main.Repositary.Repositary;
+import com.main.Repositary.Repository_enquiry;
 import com.main.Servicei.HomeServicei;
 
 @Service
 public class HomeServiceimp implements HomeServicei 
 {
+	@Autowired
+	Repository_enquiry re;
 	
 	@Autowired
 	Repositary ri;
@@ -83,6 +87,12 @@ public class HomeServiceimp implements HomeServicei
 			System.out.println("LLLLLLLLLL");
 			
 			return al;
+	}
+
+	@Override
+	public void saveEnquiryData(Enquiryform e) {
+		re.save(e);
+		
 	}
 	
 	

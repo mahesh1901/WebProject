@@ -490,11 +490,11 @@
             <div class="col-lg-6 col-md-8 col-sm-10 px-0">
                 <div class="contact-form bg-white rounded p-5">
                     <div id="success"></div>
-                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                    <form action="sent" name=sentMessage id="contactForm" novalidate="novalidate">
                         <div class="form-row">
                             <div class="col-md-6">
                                 <div class="control-group">
-                                    <input type="text" class="form-control bg-light border-0 p-4" id="yourName" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <input type="text" class="form-control bg-light border-0 p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -506,7 +506,7 @@
                             </div>
                         </div>
                         <div class="control-group">
-                            <input type="text" class="form-control bg-light border-0 p-4" id="courses" placeholder="courses" required="required" data-validation-required-message="Please enter a courses" />
+                            <input type="text" class="form-control bg-light border-0 p-4" id="subject" placeholder="subject" required="required" data-validation-required-message="Please enter a subject" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
@@ -514,7 +514,7 @@
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="text-center">
-                            <button class="btn btn-primary text-uppercase py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
+                            <button class="btn btn-primary text-uppercase py-3 px-5" type="submit" id="sendMessageButton">Send Message</button></a>
                         </div>
                     </form>
                 </div>

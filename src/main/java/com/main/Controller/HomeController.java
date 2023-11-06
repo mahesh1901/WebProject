@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.main.Model.Enquiryform;
 import com.main.Model.Registration;
 import com.main.Servicei.HomeServicei;
-import com.mysql.cj.x.protobuf.MysqlxResultset.FetchSuspendedOrBuilder;
+
 
 @Controller
 public class HomeController {
@@ -35,7 +35,12 @@ public class HomeController {
 
 		return "Registration";
 	}
-
+	@RequestMapping("/sent")
+	public String save1(@ModelAttribute Enquiryform e)
+	{
+		hi.saveEnquiryData(e);
+		return "index";
+	}
 	@RequestMapping("/save")
 	public String registerStudentSave(@ModelAttribute Registration reg) {
 		hi.saveStudent(reg);
@@ -224,6 +229,67 @@ public class HomeController {
 		
 		return "success";
 	}
+	
+	@RequestMapping("/HTML and CSS")
+	public String htmlData(@RequestParam(value = "courses" ,required=false) String c, Model m)
+	{
+		
+		
+		List<Registration> data=hi.getpythonData(c);
+		m.addAttribute("data", data);
+		
+		
+		
+		
+		
+		for (Registration p : data)
+		{
+			System.out.println(p.getCourses());
+			if(p.getCourses().equals("HTML"))
+			{
+				System.out.println("In If Block");
+				
+				m.addAttribute("data", data);
+				return "success";
+			}
+			
+		}
+		
+		
+		return "success";
+	}
+	
+	
+	@RequestMapping("/go")
+	public String goData(@RequestParam(value = "courses" ,required=false) String c, Model m)
+	{
+		
+		
+		List<Registration> data=hi.getpythonData(c);
+		m.addAttribute("data", data);
+		
+		
+		
+		
+		
+		for (Registration p : data)
+		{
+			System.out.println(p.getCourses());
+			if(p.getCourses().equals("Go"))
+			{
+				System.out.println("In If Block");
+				
+				m.addAttribute("data", data);
+				return "success";
+			}
+			
+		}
+		
+		
+		return "success";
+	}
+
+
 
 
 	}

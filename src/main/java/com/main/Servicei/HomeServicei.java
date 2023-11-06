@@ -2,6 +2,7 @@ package com.main.Servicei;
 
 import java.util.List;
 
+import com.main.Model.Enquiryform;
 import com.main.Model.Registration;
 
 public interface HomeServicei
@@ -19,6 +20,8 @@ public interface HomeServicei
 	public List<Registration> getSingleData(String uname, String pass);
 
 	public List<Registration> getpythonData(String c);
+
+	public void saveEnquiryData(Enquiryform e);
 
 	
 	
