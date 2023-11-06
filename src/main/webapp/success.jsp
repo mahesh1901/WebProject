@@ -127,7 +127,7 @@
 </head>
 <body>
     <h1><marquee>Register Student Information</marquee></h1>
-    <table>
+    <table style="border: left;">
         <tr>
             <th>ID</th>
             <th>Username</th>
@@ -139,8 +139,8 @@
             <th>Qualification</th>
             <th>Grade</th>
             <th>Aadhar Number</th>
-            </tr>
-            <tr>
+            
+            
             <th>Guardian Contact</th>
             <th>Total Fees</th>
             <th>Registration Fee</th>
@@ -164,10 +164,7 @@
             <td>${data.quali}</td>
             <td>${data.grade}</td>
             <td>${data.adharno}</td>
-            </tr>
-            </c:forEach>
-            <c:forEach var="data" items="${data}">
-        <tr>
+         
             <td>${data.guaContact}</td>
             <td>${data.totalFess}</td>
             <td>${data.registrationfee}</td>
@@ -181,7 +178,14 @@
                 
         </tr>
         </c:forEach>
+        
     </table>
+   <center><a href="java?courses=Java" style=" align-content: center;"><button type="button" style="border: solid; text-align: center;">JAVA Student</button></a>
+   <a href="python?courses=Python" style=" align-content: center;"><button type="button" style="border: solid; text-align: center;">PYTHON Student</button></a>
+   <a href="go?courses=Go" style=" align-content: center;"><button type="button" style="border: solid; text-align: center;">GOLANG Student</button></a>
+   <a href="HTML and CSS?courses=HTML" style=" align-content: center;"><button type="button" style="border: solid; text-align: center;">HTML AND CSS</button></a>
+   
+   </center>
 </body>
 </html>
    

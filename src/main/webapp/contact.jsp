@@ -132,7 +132,11 @@
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="index" class="navbar-brand">
+<<<<<<< Updated upstream
                     <h1 class="m-0 mt-n2 text-white display-5">WebCoreStone</h1>
+=======
+                    <h1 class="m-0 mt-n2 text-white display-4">WebCoreStone</h1>
+>>>>>>> Stashed changes
                 </a>
                 <p>IT institute offering a diverse range of hands-on IT courses, equipping students with the skills to thrive in the tech industry</p>
                 <h6 class="text-uppercase text-white py-2">Follow Us</h6>

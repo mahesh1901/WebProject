@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -131,8 +132,15 @@
 <h1><marquee>UPDATE PAGE OPENED</marquee></h1>
 
 <form action="Update">
+
+
     <pre>
+    
         <input type="hidden" name="id" value="${data.id}">
+       <input type="hidden" name="uname" value="${data.uname}">
+       <input type="hidden" name="pass" value="${data.pass}">
+       
+        
         <label for="fname">First Name:</label>
         <input type="text" name="fname" value="${data.fname}">
         
@@ -142,14 +150,23 @@
         <label for="lname">Last Name:</label>
         <input type="text" name="lname" value="${data.lname}">
         
+         <input type="hidden" name="dateofbirth" value="${data.dateofbirth}">
+        
+        
         <label for="quali">Qualification:</label>
         <input type="text" name="quali" value="${data.quali}">
         
         <label for="grade">Grade:</label>
         <input type="text" name="grade" value="${data.grade}">
         
+        <input type="hidden" name="adharno" value="${data.adharno}">
+       
+        
         <label for="guaContact">Guardian Contact:</label>
         <input type="text" name="guaContact" value="${data.guaContact}">
+        
+               <input type="hidden" name="totalFess" value="${data.totalFess}">
+       
         
         <label for="registrationfee">Registration Fee:</label>
         <input type="text" name="registrationfee" value="${data.registrationfee}">
@@ -160,8 +177,20 @@
         <label for="address">Address:</label>
         <input type="text" name="address" value="${data.address}">
         
+      <input type="hidden" name="courses" value="${data.courses}">
+      
+      <input type="hidden" name="gender" value="${data.gender}">
+      
+      <input type="hidden" name="classMode" value="${data.classMode}">
+        
+        
         <input type="submit" value="UPDATE">
+       
+         
     </pre>
+    
+   
+    
 </form>
 
 </body>

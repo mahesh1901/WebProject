@@ -150,7 +150,16 @@
       <input type="number" name="totalFess" placeholder="Total Fees">
       <input type="number" name="registrationfee" placeholder="Registration Fee">
       <input type="text" name="address" placeholder="Address">
-      <input type="text" name="courses" placeholder="Courses">
+      
+      <select name="courses">
+        <option value="Java">Java FullStack </option>
+        <option value="Python">Python FullStack </option>
+        <option value="HTML">HTML and CSS</option>
+        <option value="JS">JavaScript and Angular/node js</option>
+        <option value="Go">Golang</option>
+      </select>
+      
+      
       <select name="gender">
         <option value="male">Male</option>
         <option value="female">Female</option>
@@ -172,9 +181,15 @@
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="index" class="navbar-brand">
+<<<<<<< Updated upstream
                     <h1 class="m-0 mt-n2 text-white display-5">WebCoreStone</h1>
                 </a>
                 <p>IT institute offering a diverse range of hands-on IT courses, equipping students with the skills to thrive in the tech industry</p>
+=======
+                    <h1 class="m-0 mt-n2 text-white display-4">WebCoreStone</h1>
+                </a>
+                <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
+>>>>>>> Stashed changes
                 <h6 class="text-uppercase text-white py-2">Follow Us</h6>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -185,7 +200,11 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
+<<<<<<< Updated upstream
                 <p>Contact us at Web Core Stone IT Institute to embark on your journey towards IT excellence.</p>
+=======
+                <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
+>>>>>>> Stashed changes
                 <p><i class="fa fa-map-marker-alt text-white mr-2"></i>KarveNager, Pune, BHARAT</p>
                 <p><i class="fa fa-phone-alt text-white mr-2"></i>+91 9766004061</p>
                 <p><i class="fa fa-envelope text-white mr-2"></i>webCoreStone@123gmail.com</p>
@@ -203,7 +222,11 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Newsletter</h4>
+<<<<<<< Updated upstream
                 <p class="mb-4">Join our newsletter to receive exclusive content and discover how Web Core Stone can empower your IT journey.</p>
+=======
+                <p class="mb-4">Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
+>>>>>>> Stashed changes
                 <div class="w-100 mb-3">
                     <div class="input-group">
                         <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
@@ -212,7 +235,11 @@
                         </div>
                     </div>
                 </div>
+<<<<<<< Updated upstream
                 <i></i>
+=======
+                <i>Lorem sit sed elitr sed kasd et</i>
+>>>>>>> Stashed changes
             </div>
         </div>
     </div>

@@ -17,6 +17,10 @@ public interface HomeServicei
 	public void deleteRecord(int id);
 
 	public List<Registration> getSingleData(String uname, String pass);
+
+	public List<Registration> getpythonData(String c);
+
+	
 	
 
 }

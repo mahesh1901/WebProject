@@ -18,7 +18,10 @@ public interface Repositary extends JpaRepository<Registration, Integer>
 	
 	  //List<Registration> findByUsernameAndPassword(String user, String pass);
 	  List<Registration> findByUnameAndPass(String uname, String pass);
-
+       
+	List<Registration> findAllByCourses(String courses);
+	
+	
 	  //List<Account> findByAccHolderNameAndPassword(String ahname, String password);
 
 		

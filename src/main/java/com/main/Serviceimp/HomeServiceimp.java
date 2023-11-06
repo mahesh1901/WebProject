@@ -66,4 +66,27 @@ public class HomeServiceimp implements HomeServicei
 	
 	
 
+	@Override
+	public List<Registration> getpythonData(String c) 
+	{
+		System.out.println("RRRRRRRRr");
+			List<Registration> al =  ri.findAllByCourses(c);
+			
+			/*
+			 * for(Registration r : al) {
+			 * 
+			 * System.out.println("Repoisatry Method :"+ r.getCourses()); }
+			 */
+			
+			al.forEach(s ->{System.out.println(s.getCourses());});
+			
+			System.out.println("LLLLLLLLLL");
+			
+			return al;
+	}
+	
+	
+	
+	
+
 }
