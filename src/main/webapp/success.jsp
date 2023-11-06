@@ -90,7 +90,7 @@
     <style>
         body {
             background-image: url('hand-pointing.jpg');
-            background-size: 100%;
+            background-size: cover;
             background-repeat: no-repeat;
             font-weight: bolder;
             column-rule-style: solid;
@@ -106,7 +106,7 @@
         }
 
         table {
-            width: 50%;
+            width: 40%;
             margin: 0 auto;
             border-collapse: collapse;
         }
@@ -116,7 +116,7 @@
         }
 
         th, td {
-            padding: 10px;
+            padding: 2px;
             text-align: left;
         }
 
@@ -139,11 +139,10 @@
             <th>Qualification</th>
             <th>Grade</th>
             <th>Aadhar Number</th>
-            
-            
-            <th>Guardian Contact</th>
+           	<th>Guardian Contact</th>
             <th>Total Fees</th>
             <th>Registration Fee</th>
+            <th>RemainingFees</th>
             <th>Gender</th>
             <th>Mobile Number</th>
             <th>Class Mode</th>
@@ -164,10 +163,10 @@
             <td>${data.quali}</td>
             <td>${data.grade}</td>
             <td>${data.adharno}</td>
-         
             <td>${data.guaContact}</td>
             <td>${data.totalFess}</td>
             <td>${data.registrationfee}</td>
+            <td>${data.remainingFees}</td>
             <td>${data.gender}</td>
             <td>${data.mobileNo}</td>
             <td>${data.classMode}</td>
@@ -220,12 +219,12 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Quick Links</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>About Us</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Our Services</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Pricing Plan</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Meet The Team</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Contact Us</a>
+                   <a class="text-white-50 mb-2" href="index"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
+                    <a class="text-white-50 mb-2" href="about"><i class="fa fa-angle-right text-white mr-2"></i>About Us</a>
+                    <a class="text-white-50 mb-2" href="service"><i class="fa fa-angle-right text-white mr-2"></i>Our Services</a>
+                    <a class="text-white-50 mb-2" href="Registration"><i class="fa fa-angle-right text-white mr-2"></i>Registration</a>
+                    <a class="text-white-50 mb-2" href="team"><i class="fa fa-angle-right text-white mr-2"></i>Meet The Team</a>
+                    <a class="text-white-50" href="contact"><i class="fa fa-angle-right text-white mr-2"></i>Contact Us</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">

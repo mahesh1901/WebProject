@@ -1,5 +1,6 @@
 package com.main.Model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -23,6 +24,8 @@ public class Registration {
 	private long guaContact;
 	private double totalFess;
 	private double registrationfee;
+	@Column(name = "remainingFees", columnDefinition = "Double(0.0) default '0.0'")
+	private double remainingFees;
 	private String gender;
 	private long mobileNo;
 	private String classMode;
@@ -135,6 +138,12 @@ public class Registration {
 	}
 	public void setClassMode(String classMode) {
 		this.classMode = classMode;
+	}
+	public double getRemainingFees() {
+		return remainingFees;
+	}
+	public void setRemainingFees(double remainingFees) {
+		this.remainingFees = remainingFees;
 	}
 	
 	

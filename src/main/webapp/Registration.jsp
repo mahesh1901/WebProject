@@ -75,7 +75,7 @@
         <div class="d-inline-flex text-white">
             <h6 class="text-uppercase m-0"><a class="text-white" href="">Home</a></h6>
             <h6 class="m-0 px-3">/</h6>
-            <h6 class="text-uppercase m-0">Prices</h6>
+            <h6 class="text-uppercase m-0">Registration</h6>
         </div>
     </div>
     <!DOCTYPE html>
@@ -148,7 +148,9 @@
       <input type="number" name="adharno" placeholder="Aadhar Number">
       <input type="number" name="guaContact" placeholder="Guardian Contact">
       <input type="number" name="totalFess" placeholder="Total Fees">
-      <input type="number" name="registrationfee" placeholder="Registration Fee">
+      <input type="number" name="registrationfee" placeholder="Registration_Fees">
+       <input type="number" name="remainingFees" placeholder="Remaining_Fees">
+      
       <input type="text" name="address" placeholder="Address">
       
       <select name="courses">
@@ -212,12 +214,12 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Quick Links</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>About Us</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Our Services</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Pricing Plan</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Meet The Team</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Contact Us</a>
+                   <a class="text-white-50 mb-2" href="index"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
+                    <a class="text-white-50 mb-2" href="about"><i class="fa fa-angle-right text-white mr-2"></i>About Us</a>
+                    <a class="text-white-50 mb-2" href="service"><i class="fa fa-angle-right text-white mr-2"></i>Our Services</a>
+                    <a class="text-white-50 mb-2" href="Registration"><i class="fa fa-angle-right text-white mr-2"></i>Registration</a>
+                    <a class="text-white-50 mb-2" href="team"><i class="fa fa-angle-right text-white mr-2"></i>Meet The Team</a>
+                    <a class="text-white-50" href="contact"><i class="fa fa-angle-right text-white mr-2"></i>Contact Us</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">

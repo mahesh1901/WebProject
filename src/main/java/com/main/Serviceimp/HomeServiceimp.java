@@ -22,6 +22,17 @@ public class HomeServiceimp implements HomeServicei
 	@Override
 	public void saveStudent(Registration reg) 
 	{
+		
+		double RemainingFees = reg.getTotalFess() - reg.getRegistrationfee();
+		  double paidFees = reg.getTotalFess() - RemainingFees;
+		  
+		  reg.setRemainingFees(RemainingFees);
+		  reg.setRegistrationfee(paidFees);
+		  
+		  System.out.println(reg.getTotalFess());
+		  System.out.println(reg.getRemainingFees());
+		  
+		  
 		ri.save(reg);
 	}
 
@@ -29,19 +40,31 @@ public class HomeServiceimp implements HomeServicei
 	public Registration editRegisterData(int id) 
 	{
 		 Optional<Registration> reg = ri.findById(id);
-		
-		
-		 return reg.get();
-		
-	}
-
-	@Override
-	public void updateData(Registration reg) 
-	{
-		ri.save(reg);
+	
+		return reg.get();
 		
 	}
+	
+	
 
+	
+	  @Override 
+	  public void updateData(Registration reg) 
+	  {
+	  
+	  double RemainingFees = reg.getTotalFess() - reg.getRegistrationfee();
+	  double paidFees = reg.getTotalFess() - RemainingFees;
+	  
+	  reg.setRemainingFees(RemainingFees);
+	  reg.setRegistrationfee(paidFees);
+	  
+	  System.out.println(reg.getTotalFess());
+	  System.out.println(reg.getRemainingFees());
+	  
+	  ri.save(reg);
+	  
+	  }
+	 
 	@Override
 	public List<Registration> getAllData() 
 	{
@@ -84,6 +107,8 @@ public class HomeServiceimp implements HomeServicei
 			
 			return al;
 	}
+
+	
 	
 	
 	

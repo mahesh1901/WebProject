@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -52,6 +53,11 @@ public class HomeController {
 	public String abouttohome() {
 		return "index";
 	}
+	@RequestMapping("/team")
+	public String meetOurTeam () 
+	{
+		return "team";
+	}
 
 	@RequestMapping("/Courses")
 	public String openCourses() {
@@ -59,7 +65,7 @@ public class HomeController {
 	}
 
 	@RequestMapping("/service")
-	public String opencource() {
+	public String ourServices() {
 		return "service";
 	}
 
@@ -69,9 +75,11 @@ public class HomeController {
 	}
 
 	@RequestMapping("/contact")
-	public String contact() {
+	public String contact()
+	{
 		return "contact";
 	}
+	
 
 	@RequestMapping("/UpdatePage")
 	public String editData(@RequestParam(value = "id", required = false) Integer id, Model m) {
@@ -93,6 +101,8 @@ public class HomeController {
 		}
 
 	}
+	
+	// UPDATE 
 
 	@RequestMapping("/Update")
 	public String updateRegister(@ModelAttribute Registration reg, Model m) 
@@ -109,6 +119,8 @@ public class HomeController {
 		  return "success";
 		 
 	}
+	
+	//  DELETE
 
 	@RequestMapping("/deletePage")
 	public String deleteData(@RequestParam int id, Model m) {
@@ -118,18 +130,20 @@ public class HomeController {
 		System.out.println("delete data");
 		return "success";
 	}
+	
+	// ADMIN LOGIN
 
 	@RequestMapping("/adminlogin")
 	public String login() {
 
 		System.out.println("Admin Login");
 		return "Login";
-	}
-
+	} 
 	@RequestMapping("/login")
 	public String getData(@RequestParam("uname") String uname, @RequestParam("pass") String pass, Model m) {
 		System.out.println("Get DATA");
-		if (uname.equals("Admin") && pass.equals("Admin@123")) {
+		if (uname.equals("Admin") && pass.equals("Admin@123")) 
+		{
 			System.out.println("GetAllData  method Called");
 			List<Registration> data = hi.getAllData();
 			m.addAttribute("data", data);
@@ -139,6 +153,9 @@ public class HomeController {
 		System.out.println("Wrong Username And Password");
 		return "Login";
 	}
+	
+	
+	// STUDENT LOGIN
 
 	@RequestMapping("/getSingleData")
 	public String stuLogin() {
@@ -163,6 +180,8 @@ public class HomeController {
 		System.out.println("Wrong User And Password");
 		return "index";
 	}
+	
+	//  COURSES LOGIN
 	
 	@RequestMapping("/python")
 	public String pythonData(@RequestParam(value = "courses" ,required=false) String c, Model m)
@@ -192,10 +211,6 @@ public class HomeController {
 		
 		return "success";
 	}
-	
-	
-	
-	
 	@RequestMapping("/java")
 	public String javaData(@RequestParam(value = "courses" ,required=false) String c, Model m)
 	{
@@ -204,27 +219,21 @@ public class HomeController {
 		List<Registration> data=hi.getpythonData(c);
 		m.addAttribute("data", data);
 		
-		
-		
-		
-		
 		for (Registration p : data)
 		{
 			System.out.println(p.getCourses());
 			if(p.getCourses().equals("Java"))
 			{
 				System.out.println("In If Block");
-				
 				m.addAttribute("data", data);
 				return "success";
 			}
-			
 		}
-		
-		
 		return "success";
-	}
-
+	 }
+	
+	
+	
 
 	}
 
