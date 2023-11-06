@@ -143,37 +143,32 @@
         
         <label for="fname">First Name:</label>
         <input type="text" name="fname" value="${data.fname}">
-        
+        <br>
         <label for="mname">Middle Name:</label>
         <input type="text" name="mname" value="${data.mname}">
-        
+        <br>
         <label for="lname">Last Name:</label>
         <input type="text" name="lname" value="${data.lname}">
-        
-         <input type="hidden" name="dateofbirth" value="${data.dateofbirth}">
-        
-        
+        <input type="hidden" name="dateofbirth" value="${data.dateofbirth}">
+        <br>
         <label for="quali">Qualification:</label>
         <input type="text" name="quali" value="${data.quali}">
-        
+        <br>
         <label for="grade">Grade:</label>
         <input type="text" name="grade" value="${data.grade}">
-        
         <input type="hidden" name="adharno" value="${data.adharno}">
-       
-        
+       	<br>
         <label for="guaContact">Guardian Contact:</label>
         <input type="text" name="guaContact" value="${data.guaContact}">
-        
-               <input type="hidden" name="totalFess" value="${data.totalFess}">
-       
-        
+        <input type="hidden" name="totalFess" value="${data.totalFess}">
+        <br>
         <label for="registrationfee">Registration Fee:</label>
         <input type="text" name="registrationfee" value="${data.registrationfee}">
-        
+        <input type="hidden" name="remainingFees" value=" ${data.remainingFees}">
+        <br>
         <label for="mobileNo">Mobile Number:</label>
         <input type="text" name="mobileNo" value="${data.mobileNo}">
-        
+        <br>
         <label for="address">Address:</label>
         <input type="text" name="address" value="${data.address}">
         
@@ -223,12 +218,12 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Quick Links</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>About Us</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Our Services</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Pricing Plan</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Meet The Team</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Contact Us</a>
+                    <a class="text-white-50 mb-2" href="index"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
+                    <a class="text-white-50 mb-2" href="about"><i class="fa fa-angle-right text-white mr-2"></i>About Us</a>
+                    <a class="text-white-50 mb-2" href="service"><i class="fa fa-angle-right text-white mr-2"></i>Our Services</a>
+                    <a class="text-white-50 mb-2" href="Registration"><i class="fa fa-angle-right text-white mr-2"></i>Registration</a>
+                    <a class="text-white-50 mb-2" href="team"><i class="fa fa-angle-right text-white mr-2"></i>Meet The Team</a>
+                    <a class="text-white-50" href="contact"><i class="fa fa-angle-right text-white mr-2"></i>Contact Us</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">

@@ -25,12 +25,10 @@ public interface Repositary extends JpaRepository<Registration, Integer>
 	  //List<Account> findByAccHolderNameAndPassword(String ahname, String password);
 
 		
-		/*
-		 * @Modifying
-		 * 
-		 * @Query("UPDATE Account a SET a.deposite = :newDeposit  WHERE a.accountNumber = :accountNumber"
-		 * ) void updateDepositeByAccountNumber(@Param("newDeposit") double
-		 * newDeposit, @Param("accountNumber") int accountNumber);
-		 * 
-		 */
+		
+		  @Modifying
+		   @Query("UPDATE Registration a SET a.totalFess = :NewtotalFess  WHERE a.id = :id")
+		  	void updateTotalFessById(@Param("NewtotalFess") double newDeposit, @Param("id") int accountNumber);
+		  
+		 
 }
