@@ -265,7 +265,7 @@ partial
         <div class="content">
             <p>Java is a high-level, object-oriented programming language known for its platform independence 
             and versatility in building a wide range of software applications.</p>
-            <a href="#">syllabus</a>
+            <a href="http://www.fullstackjavadeveloper.in/Syllabus.pdf">Syllabus</a>
         </div>
     </div>
     <div class="card">
@@ -275,7 +275,7 @@ partial
         <div class="content">
             <p>Python is a high-level, versatile programming language known for its simplicity and readability, 
             often used for web development, data analysis, artificial intelligence, and more.</p>
-            <a href="#">syllabus</a>
+            <a href="https://www.credosystemz.com/wp-content/uploads/2023/06/Python-Full-Stack-Development-Training-Course-Syllabus-1.pdf">Syllabus</a>
         </div>
     </div>
     <div class="card">

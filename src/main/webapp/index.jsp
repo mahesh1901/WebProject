@@ -58,11 +58,8 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 m-0">
-<<<<<<< Updated upstream
                             <a href="team" class="nav-item nav-link">Meat The Team</a>
-=======
                             <a href="team" class="dropdown-item">Meet Our Team</a>
->>>>>>> Stashed changes
                             <a href="testimonial" class="dropdown-item">Strategic_Five</a>
                         </div>
                     </div>
@@ -128,7 +125,7 @@
         <div class="row mx-0 align-items-center">
             <div class="col-lg-6 px-md-5 text-center text-lg-left order-lg-2">
                 <h4 class="display-4 text-uppercase mb-3">The Pathway to Web Mastery Begins at WebCoreStone</h4>
-                <p class="text-dark mb-4"><h4>Mr. Kunal Sonu</h4> 
+                <p class="text-dark mb-4"><h4>Mr. Kunal Sir</h4> 
                     The Director of Complete Java Classes has Masters degree in Computer Applications.
                     He has total 8+ years of experience in providing technical skills & consultancy in Java/J2EE technologies.</p>
                 <a href="" class="btn btn-dark text-uppercase mt-1 py-3 px-5">Learn More</a>
@@ -320,7 +317,7 @@
                             <p>Flask</p>
                             <p>Pdbc </p>
                             <p>DJango</p>
-                            <a href="" class="btn btn-dark text-uppercase py-2 px-4 my-3">Join Now</a>
+                            <a href="Registration" class="btn btn-dark text-uppercase py-2 px-4 my-3">Join Now</a>
                         </div>
                     </div>
                 </div>
@@ -341,7 +338,7 @@
                             <p>Jdbc, Hibernate</p>
                             <p>SpringBoot</p>
                             <p>MicroServices</p>
-                            <a href="" class="btn btn-primary text-uppercase py-2 px-4 my-3">Join Now</a>
+                            <a href="Registration" class="btn btn-primary text-uppercase py-2 px-4 my-3">Join Now</a>
                         </div>
                     </div>
                 </div>
@@ -362,7 +359,7 @@
                             <p>Manual Testing</p>
                             <p>Automation</p>
                             <p>API Testing</p>
-                            <a href="" class="btn btn-dark text-uppercase py-2 px-4 my-3">Join Now</a>
+                            <a href="Registration" class="btn btn-dark text-uppercase py-2 px-4 my-3">Join Now</a>
                         </div>
                     </div>
                 </div>
@@ -377,29 +374,8 @@
         <div class="container py-5">
             <h1 class="display-4 text-uppercase text-center mb-5">Meet Our Team</h1>
             <div class="owl-carousel team-carousel position-relative" style="padding-left: 30px;">
-                <div class="team-item rounded overflow-hidden">
-                    <div class="position-relative">
-                        <img class="img-fluid w-100" src="img/mahesh.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h4 class="text-uppercase">Mahesh Patil</h4>
-<<<<<<< HEAD
-                        <p class="m-0">Team Lead</p>
-=======
-                        <p class="m-0">Team Leader</p>
->>>>>>> d7555e92159fee1447f3c13c3120c16a5c9e8de3
-                    </div>
-                </div>
-                
-                
-                <div class="team-item rounded overflow-hidden">
+            
+            <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
                         <img class="img-fluid w-100" src="img/pj.jpg" alt="">
                         <div class="team-overlay">
@@ -412,13 +388,32 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Prasad Jadhav</h4>
-<<<<<<< HEAD
-                        <p class="m-0">Frontend Developer</p>
-=======
+                        <p class="m-0">Backend Developer</p>
                         <p class="m-0"></p>
->>>>>>> d7555e92159fee1447f3c13c3120c16a5c9e8de3
                     </div>
                 </div>
+                
+            
+            
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/mahesh.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h4 class="text-uppercase">Mahesh R Patil</h4>
+                        <p class="m-0"><b>Team Lead</b></p>
+                        <p class="m-0">Fullstack Developer</p>
+                    </div>
+                </div>
+                
+                
                 
                 
                 
@@ -435,11 +430,8 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Vijay Patil</h4>
-<<<<<<< HEAD
                         <p class="m-0">Fullstack JAVA Developer</p>
-=======
                         <p class="m-0"></p>
->>>>>>> d7555e92159fee1447f3c13c3120c16a5c9e8de3
                     </div>
                 </div>
                 
@@ -459,7 +451,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Ganesh Ambore </h4>
-                        <p class="m-0"></p>
+                        <p class="m-0">Fronted Developer</p>
                     </div>
                 </div>
                 
@@ -478,7 +470,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Shubham Hole</h4>
-                        <p class="m-0"></p>
+                        <p class="m-0">Fronted Developer</p>
                     </div>
                 </div>
                 
@@ -494,28 +486,34 @@
             <h1 class="display-4 text-uppercase text-center mb-5">Our Student Say</h1>
             <div class="owl-carousel testimonial-carousel">
                 <div class="testimonial-item position-relative text-center rounded p-4">
-                    <img class="img-fluid rounded mx-auto my-4" src="img/testimonial-1.jpg" alt="">
-                    <h5 class="text-uppercase">Prasad</h5>
+                    <img class="img-fluid rounded mx-auto my-4" src="img/ph (1).jpg" alt="">
+                    <h5 class="text-uppercase">Prasad Hatte</h5>
                     <p class="text-uppercase">Web Developer</p>
-                    <p class="text-secondary">This Is The Best Class I Have Visited they Provides Best Teaching Staff And Faclities</p>
+                    <p class="text-secondary">I loved the fact that even though I was in a class with other people, the actual physical space was private and quiet and very conducive to learning! Thank you.</p>
                 </div>
                 <div class="testimonial-item position-relative text-center rounded p-4">
-                    <img class="img-fluid rounded mx-auto my-4" src="img/testimonial-2.jpg" alt="">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/ph (2).jpg" alt="">
+                    <h5 class="text-uppercase">Saurabh Kawade </h5>
+                    <p class="text-uppercase">Web Developer</p>
+                    <p class="text-secondary">I was not sure what to expect because the class was taught remotely, but I was quite impressed with the entire process. The facility was very professional and there were no problems with connectivity.</p>
+                </div>
+                <div class="testimonial-item position-relative text-center rounded p-4">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/ph (3).jpg" alt="">
                     <h5 class="text-uppercase">Vinay Shinde</h5>
-                    <p class="text-uppercase">Web Developer</p>
-                    <p class="text-secondary">Tempor lorem dolor sea et ipsum, lorem justo kasd dolore vero eos. Lorem duo ipsum sea amet et clita dolor</p>
+                    <p class="text-uppercase">Backend Developer</p>
+                    <p class="text-secondary">I was not sure what to expect because the class was taught remotely, but I was quite impressed with the entire process. The facility was very professional and there were no problems with connectivity.</p>
                 </div>
                 <div class="testimonial-item position-relative text-center rounded p-4">
-                    <img class="img-fluid rounded mx-auto my-4" src="img/testimonial-3.jpg" alt="">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/ph (4).jpg" alt="">
                     <h5 class="text-uppercase">Gaurav Chavan</h5>
                     <p class="text-uppercase">Backend Developer</p>
-                    <p class="text-secondary">Tempor lorem dolor sea et ipsum, lorem justo kasd dolore vero eos. Lorem duo ipsum sea amet et clita dolor</p>
+                    <p class="text-secondary">"I never took a remote training before but I will highly recommend this type of training. It felt relaxed and at a nice pace that I feel I came away with lots to use at my workplace. Thank you!"</p>
                 </div>
                 <div class="testimonial-item position-relative text-center rounded p-4">
-                    <img class="img-fluid rounded mx-auto my-4" src="img/testimonial-4.jpg" alt="">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/may (1).jpg" alt="">
                     <h5 class="text-uppercase">Mayur Gangurde</h5>
                     <p class="text-uppercase">Backend Developer</p>
-                    <p class="text-secondary">Tempor lorem dolor sea et ipsum, lorem justo kasd dolore vero eos. Lorem duo ipsum sea amet et clita dolor</p>
+                    <p class="text-secondary">"This was my first time taking a course in this format and it far exceeded my expectations."</p>
                 </div>
             </div>
         </div>
@@ -611,7 +609,7 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Newsletter</h4>
-                <p class="mb-4">Join our newsletter to receive exclusive content and discover how Web Core Stone can empower your IT journey.</p>
+                <p class="mb-4">Join our WebCorStone to receive exclusive content and discover how Web Core Stone can empower your IT journey.</p>
                 <div class="w-100 mb-3">
                     <div class="input-group">
                         <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
@@ -626,7 +624,7 @@
     </div>
     <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
         <p class="mb-2 text-center text-white-50">&copy; <a href="index">WebCoreStone</a>. All Rights Reserved.</p>
-        <p class="m-0 text-center text-white-50">Designed by <a href="https://htmlcodex.com">Strategic_Five</a></p>
+        <p class="m-0 text-center text-white-50">Designed by <a href="team">Strategic_Five</a></p>
     </div>
     <!-- Footer End -->
 
