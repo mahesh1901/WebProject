@@ -23,6 +23,8 @@ public interface HomeServicei
 
 	public void saveEnquiryData(Enquiryform e);
 
+	public List<Enquiryform> getenAllData();
+
 	
 	
 

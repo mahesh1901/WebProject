@@ -41,6 +41,7 @@
                     <a href="index" class="nav-item nav-link">Home</a>
                     <a href="about" class="nav-item nav-link active">About</a>
                     <a href="service" class="nav-item nav-link">Services</a>
+                    
                     <a href="Registration" class="nav-item nav-link">Register</a>
                     <a href="UpdatePage" class="nav-item nav-link">Update</a>
                    <a href="adminlogin" class="nav-item nav-link">Success</a>

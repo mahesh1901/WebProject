@@ -30,6 +30,13 @@ public class HomeController {
 		return "index";
 
 	}
+	@RequestMapping("/hrlogin")
+	public String hrlogin()
+	{
+		return "hrlogin";
+		
+	}
+	
 
 	@RequestMapping("/Registration")
 	public String preregisterStudent() {
@@ -158,6 +165,25 @@ public class HomeController {
 		System.out.println("Wrong Username And Password");
 		return "Login";
 	}
+	
+	
+	///hr login
+	
+	@RequestMapping("/hlogin")
+	public String getenquiryData(@RequestParam(value = "name" ,required = false) String name, @RequestParam(value = "email",required = false) String email, Model m) {
+		System.out.println("Get  en DATA");
+		if (name.equals("Admin") && email.equals("Admin@123")) 
+		{
+			System.out.println("GeteAllData  method Called");
+			List<Enquiryform> data = hi.getenAllData();
+			m.addAttribute("data", data);
+			return "edits";
+		}
+
+		System.out.println("Wrong Username And Password");
+		return "hrlogin";
+	}
+	
 	
 	
 	// STUDENT LOGIN
@@ -293,28 +319,23 @@ public class HomeController {
 			}
 		}
 		return "success";
-<<<<<<< Updated upstream
-=======
+
 	}
 
 
 
 
->>>>>>> Stashed changes
 	 }
 	
 	
 	
 
-<<<<<<< Updated upstream
 
-	 }
+	 
 	
 	
 	
 
-=======
->>>>>>> Stashed changes
-	
+
 
 

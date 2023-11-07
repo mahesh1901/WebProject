@@ -1,5 +1,6 @@
 package com.main.Serviceimp;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -115,14 +116,21 @@ public class HomeServiceimp implements HomeServicei
 			return al;
 	}
 
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
+
 	@Override
 	public void saveEnquiryData(Enquiryform e) {
 		re.save(e);
 		
+	}
+
+	@Override
+	public List<Enquiryform> getenAllData() {
+		// TODO Auto-generated method stub
+		
+		
+		
+		return re.findAll();
 	}
 
 	

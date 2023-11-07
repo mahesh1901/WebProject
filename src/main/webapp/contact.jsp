@@ -77,18 +77,10 @@
 
 
      <!-- Contact Start -->
-    <div class="container-fluid py-5 px-0">
+    <div class="container-fluid py-5 px-0" style=" background-image: url('img/k.jpg');">
         <h1 class="display-4 text-uppercase text-center mt-5 mb-5">Contact Us</h1>
-        <div class="row mx-0">
-            <div class="col-12 px-0" style="height: 500px;">
-                <div class="position-relative h-100">
-                    <iframe class="position-relative w-100 h-100"
-                        src="https://www.google.com/maps/place/Ringangaon,+Maharashtra+425103/@20.9657276,75.4016927,14.12z/data=!4m6!3m5!1s0x3bd916b386de754f:0xed6a6ee1ed63e20e!8m2!3d20.9553205!4d75.428646!16s%2Fg%2F12hl0f97t?entry=ttu"
-                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
-                </div>
-            </div>
-        </div>
+        
+
         <div class="row mx-0 justify-content-center" style="margin-top: -200px;">
             <div class="col-lg-6 col-md-8 col-sm-10 px-0">
                 <div class="contact-form bg-white rounded p-5">
@@ -133,17 +125,13 @@
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="index" class="navbar-brand">
-<<<<<<< Updated upstream
-                    <h1 class="m-0 mt-n2 text-white display-5">WebCoreStone</h1>
 
-                    <h1 class="m-0 mt-n2 text-white display-4">WebCoreStone</h1>
-=======
 
                     <h1 class="m-0 mt-n2 text-white display-5">WebCoreStone</h1>
 
                    
 
->>>>>>> Stashed changes
+
                 </a>
                 <p>IT institute offering a diverse range of hands-on IT courses, equipping students with the skills to thrive in the tech industry</p>
                 <h6 class="text-uppercase text-white py-2">Follow Us</h6>

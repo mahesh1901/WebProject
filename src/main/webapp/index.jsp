@@ -49,12 +49,13 @@
 <!--                     <a href="UpdatePage" class="nav-item nav-link">Update</a>
  -->                   
  					<a href="adminlogin" class="nav-item nav-link">Admin_Login</a>
+ 					<a href="hrlogin" class="nav-item nav-link">HR_LOGIN</a>
                    <a href="getSingleData" class="nav-item nav-link">Student Login</a>
                    <a href="Courses" class="nav-item nav-link">Courses</a>
                    
                     
                     
-                    <a href="project" class="nav-item nav-link">Projects</a>
+
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 m-0">
@@ -209,90 +210,7 @@
     <!-- Services End -->
 
 
-    <!-- Portfolio Start -->
-    <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <h1 class="display-4 text-uppercase text-center mb-5">Visit Our Projects</h1>
-            <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-outline-dark text-uppercase py-2 px-4 active" data-filter="*">
-                            <i class="fa fa-star text-primary mr-2"></i>All
-                        </li>
-                        <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".first">
-                            <i class="fa fa-laptop-code text-primary mr-2"></i>Design
-                        </li>
-                        <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".second">
-                            <i class="fa fa-mobile-alt text-primary mr-2"></i>Development
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative rounded overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-4x fa-plus text-primary"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio End -->
+    
 
 
     <!-- Pricing Plan Start -->
@@ -520,19 +438,11 @@
     </div>
     <!-- Testimonial End -->
 
-
+<br>
+<br>
     <!-- Contact Start -->
-    <div class="container-fluid py-5 px-0">
-        <div class="row mt-5 mx-0"> 
-            <div class="col-12 px-0" style="height: 500px;">
-                <div class="position-relative h-100">
-                    <iframe class="position-relative w-100 h-100"
-                        src="https://maps.app.goo.gl/vm3z4z46N1iwaCzf7"
-                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
-                </div>
-            </div>
-        </div>
+    <div class="container-fluid py-5 px-0" style=" background-image: url('img/k.jpg');">
+       
         <div class="row mx-0 justify-content-center" style="margin-top: -200px;">
             <div class="col-lg-6 col-md-8 col-sm-10 px-0">
                 <div class="contact-form bg-white rounded p-5">
@@ -592,7 +502,8 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
                 <p>Contact us at Web Core Stone IT Institute to embark on your journey towards IT excellence.</p>
-                <p><i class="fa fa-map-marker-alt text-white mr-2"></i>KarveNager, Pune, BHARAT</p>
+                 <a href="https://www.google.com/maps/place/CJC+(by+Kunal+sir)Complete+Java+Classes/@18.4731183,73.7991216,14z/data=!3m1!5s0x3bc2bfdc6e8153ff:0x2ee2e8169d595215!4m7!3m6!1s0x3bc2bfdcf97b5d95:0x7d7b3c2e67368888!8m2!3d18.4891979!4d73.8151322!15sCghjamMgcHVuZVoKIghjamMgcHVuZZIBG3NvZnR3YXJlX3RyYWluaW5nX2luc3RpdHV0ZeABAA!16s%2Fg%2F1q62k3t28?entry=ttu"> 
+                <p><i  class="fa fa-map-marker-alt text-white mr-2"></i>KarveNager, Pune, BHARAT</p></a>
                 <p><i class="fa fa-phone-alt text-white mr-2"></i>+91 9766004061</p>
                 <p><i class="fa fa-envelope text-white mr-2"></i>WebCoreStone@123gmail.com</p>
             </div>
@@ -645,7 +556,7 @@
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
-
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
