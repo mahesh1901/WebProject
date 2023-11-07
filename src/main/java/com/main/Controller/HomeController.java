@@ -293,17 +293,28 @@ public class HomeController {
 			}
 		}
 		return "success";
+<<<<<<< Updated upstream
+=======
+	}
+
+
+
+
+>>>>>>> Stashed changes
 	 }
 	
 	
 	
 
+<<<<<<< Updated upstream
 
 	 }
 	
 	
 	
 
+=======
+>>>>>>> Stashed changes
 	
 
 

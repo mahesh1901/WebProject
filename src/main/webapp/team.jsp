@@ -178,9 +178,15 @@
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="index" class="navbar-brand">
+<<<<<<< Updated upstream
                     <h1 class="m-0 mt-n2 text-white display-4">WebcoreStone</h1>
                 </a>
                 <p> IT institute offering a diverse range of hands-on IT courses, equipping students with the skills to thrive in the tech industry</p>
+=======
+                    <h1 class="m-0 mt-n2 text-white display-4">WEBCORESTONE</h1>
+                </a>
+                <p>IT institute offering a diverse range of hands-on IT courses, equipping students with the skills to thrive in the tech industry</p>
+>>>>>>> Stashed changes
                 <h6 class="text-uppercase text-white py-2">Follow Us</h6>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>

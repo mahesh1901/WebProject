@@ -115,7 +115,10 @@ public class HomeServiceimp implements HomeServicei
 			return al;
 	}
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 	@Override
 	public void saveEnquiryData(Enquiryform e) {
 		re.save(e);

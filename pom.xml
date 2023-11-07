@@ -61,7 +61,11 @@
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
+<<<<<<< Updated upstream
     <version>8.0.28</version>
+=======
+    <version>5.1.46</version>
+>>>>>>> Stashed changes
 </dependency>
 
 

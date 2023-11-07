@@ -24,7 +24,7 @@ public class Registration {
 	private long guaContact;
 	private double totalFess;
 	private double registrationfee;
-	@Column(name = "remainingFees", columnDefinition = "Double(0.0) default '0.0'")
+//	@Column(name = "remainingFees", columnDefinition = "Double(0.0) default '0.0'")
 	private double remainingFees;
 	private String gender;
 	private long mobileNo;
