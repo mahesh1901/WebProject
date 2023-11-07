@@ -58,7 +58,11 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 m-0">
+<<<<<<< Updated upstream
                             <a href="team" class="nav-item nav-link">Meat The Team</a>
+=======
+                            <a href="team" class="dropdown-item">Meet Our Team</a>
+>>>>>>> Stashed changes
                             <a href="testimonial" class="dropdown-item">Strategic_Five</a>
                         </div>
                     </div>
@@ -93,7 +97,7 @@
         </div>
     </div> -->
 
-    <!-- Header Start -->
+  
     <!-- <div class="container-fluid bg-primary py-5 px-0" style="margin-bottom: 90px;">
         <div class="row mx-0 align-items-center">
             <div class="col-lg-6 px-0 text-center text-lg-left">
@@ -107,6 +111,8 @@
                     <a href="" class="btn btn-dark text-uppercase mt-1 py-3 px-5">Learn More</a>
                 </div>
             </div>
+            
+            
             <div class="col-lg-6 px-0 text-right">
                 <div class="text-center">
                     <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; margin: 0 auto;">
@@ -116,6 +122,8 @@
             </div>
         </div>
     </div> -->
+    
+    
     <div class="container-fluid bg-primary py-5 px-0" style="margin-bottom: 90px;">
         <div class="row mx-0 align-items-center">
             <div class="col-lg-6 px-md-5 text-center text-lg-left order-lg-2">
@@ -125,7 +133,7 @@
                     He has total 8+ years of experience in providing technical skills & consultancy in Java/J2EE technologies.</p>
                 <a href="" class="btn btn-dark text-uppercase mt-1 py-3 px-5">Learn More</a>
             </div>
-            <div class="col-lg-6 px-0 text-right order-lg-1">
+            <div class="col-lg-6 px-0 text-right order-lg-1"> 
                 <div class="circle-image">
                     <img class="img-fluid" src="img/header.png" alt="">
                 </div>
@@ -297,64 +305,64 @@
             <div class="row">
                 <div class="col-lg-4 mb-2">
                     <div class="bg-light rounded text-center pt-5 mt-lg-5 mb-4">
-                        <h2 class="text-uppercase">Basic</h2>
-                        <h6 class="text-uppercase text-body mb-5">The Best Choice</h6>
+                        <h2 class="text-uppercase">Python</h2>
+                        <h6 class="text-uppercase text-body mb-5">Best Option :</h6>
                         <div class="text-center bg-dark rounded-circle p-4 mb-2">
                             <h1 class="display-4 text-white mb-0">
                                 <small class="align-top"
-                                    style="font-size: 22px; line-height: 45px;">Ruppes</small>45000/-<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/
-                                    Mo</small>
+                                    style="font-size: 22px; line-height: 45px;"></small>70,000/-<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">
+                                    </small>
                             </h1>
                         </div>
                         <div class="text-center py-4">
-                            <p>Java </p>
-                            <p>Jdbc ,Hibernate</p>
-                            <p>Spring Boot </p>
-                            <p>Micro Services</p>
-                            <a href="" class="btn btn-dark text-uppercase py-2 px-4 my-3">Order Now</a>
+                            <p>Core Python</p>
+                            <p>Flask</p>
+                            <p>Pdbc </p>
+                            <p>DJango</p>
+                            <a href="" class="btn btn-dark text-uppercase py-2 px-4 my-3">Join Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-2">
                     <div class="bg-dark rounded text-center pt-5 mb-4">
-                        <h2 class="text-uppercase text-white">Standard</h2>
-                        <h6 class="text-uppercase text-secondary mb-5">The Best Choice</h6>
+                        <h2 class="text-uppercase text-white">Java Developer</h2>
+                        <h6 class="text-uppercase text-secondary mb-5">Best Option :</h6>
                         <div class="text-center bg-primary rounded-circle p-4 mb-2">
                             <h1 class="display-4 mb-0">
                                 <small class="align-top"
-                                    style="font-size: 22px; line-height: 45px;">Ruppes</small>15000/-<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/
-                                    Mo</small>
+                                    style="font-size: 22px; line-height: 45px;"></small>80,000/-<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">
+                                    </small>
                             </h1>
                         </div>
                         <div class="text-center text-secondary py-4">
-                            <p>HTML5 & CSS3</p>
-                            <p>Bootstrap v4</p>
-                            <p>Responsive Layout</p>
-                            <p>Compatible With All Browsers</p>
-                            <a href="" class="btn btn-primary text-uppercase py-2 px-4 my-3">Order Now</a>
+                            <p>Core Java</p>
+                            <p>Jdbc, Hibernate</p>
+                            <p>SpringBoot</p>
+                            <p>MicroServices</p>
+                            <a href="" class="btn btn-primary text-uppercase py-2 px-4 my-3">Join Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-2">
                     <div class="bg-light rounded text-center pt-5 mt-lg-5 mb-4">
-                        <h2 class=" text-uppercase">Extended</h2>
-                        <h6 class="text-uppercase text-body mb-5">The Best Choice</h6>
+                        <h2 class=" text-uppercase">Software Testing</h2>
+                        <h6 class="text-uppercase text-body mb-5">Best Option :</h6>
                         <div class="text-center bg-dark rounded-circle p-4 mb-2">
                             <h1 class="display-4 text-white mb-0">
                                 <small class="align-top"
-                                    style="font-size: 22px; line-height: 45px;">Ruppes</small>2100/-<small
-                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/
-                                    Mo</small>
+                                    style="font-size: 22px; line-height: 45px;"></small>70,000/-<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">
+                                    </small>
                             </h1>
                         </div>
                         <div class="text-center py-4">
-                            <p>HTML5 & CSS3</p>
-                            <p>Bootstrap v4</p>
-                            <p>Responsive Layout</p>
-                            <p>Compatible With All Browsers</p>
-                            <a href="" class="btn btn-dark text-uppercase py-2 px-4 my-3">Order Now</a>
+                            <p>Core Java</p>
+                            <p>Manual Testing</p>
+                            <p>Automation</p>
+                            <p>API Testing</p>
+                            <a href="" class="btn btn-dark text-uppercase py-2 px-4 my-3">Join Now</a>
                         </div>
                     </div>
                 </div>
@@ -382,12 +390,18 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Mahesh Patil</h4>
+<<<<<<< HEAD
                         <p class="m-0">Team Lead</p>
+=======
+                        <p class="m-0">Team Leader</p>
+>>>>>>> d7555e92159fee1447f3c13c3120c16a5c9e8de3
                     </div>
                 </div>
+                
+                
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="img/pj.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
                                 <a class="btn btn-lg btn-primary btn-lg-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -398,12 +412,19 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Prasad Jadhav</h4>
+<<<<<<< HEAD
                         <p class="m-0">Frontend Developer</p>
+=======
+                        <p class="m-0"></p>
+>>>>>>> d7555e92159fee1447f3c13c3120c16a5c9e8de3
                     </div>
                 </div>
+                
+                
+                
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="img/" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
                                 <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
@@ -414,12 +435,20 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Vijay Patil</h4>
+<<<<<<< HEAD
                         <p class="m-0">Fullstack JAVA Developer</p>
+=======
+                        <p class="m-0"></p>
+>>>>>>> d7555e92159fee1447f3c13c3120c16a5c9e8de3
                     </div>
                 </div>
+                
+                
+                
+                
                 <div class="team-item rounded overflow-hidden">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                        <img class="img-fluid w-100" src="img/ganesh.jpg" alt="">
                         <div class="team-overlay">
                             <div class="d-flex align-items-center justify-content-start">
                                 <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
@@ -429,10 +458,30 @@
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h4 class="text-uppercase">Ganesh </h4>
-                        <p class="m-0">Marketer</p>
+                        <h4 class="text-uppercase">Ganesh Ambore </h4>
+                        <p class="m-0"></p>
                     </div>
                 </div>
+                
+                      
+                
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/shubh.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h4 class="text-uppercase">Shubham Hole</h4>
+                        <p class="m-0"></p>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>

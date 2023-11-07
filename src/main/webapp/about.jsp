@@ -84,7 +84,10 @@
         <div class="container pt-5">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <img class="img-fluid mb-4 mb-lg-0" src="img/img.jpg" alt="">
+                    <img class="img-fluid mb-4 mb-lg-0" src="img/Student.jpg" alt="" style="border: 10px solid transparent; padding: 25px;
+                     border-image: url(Student.jpg) 40 round;">
+ 
+ 
                 </div>
                 <div class="col-lg-6">
                     <h1 class="display-4 text-uppercase mb-4">IT Classes In Pune</h1>
