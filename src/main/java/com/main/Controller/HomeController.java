@@ -224,6 +224,7 @@ public class HomeController {
 		List<Registration> data=hi.getpythonData(c);
 		m.addAttribute("data", data);
 		
+
 		for (Registration p : data)
 		{
 			System.out.println(p.getCourses());
@@ -235,7 +236,7 @@ public class HomeController {
 			}
 		}
 		return "success";
-<<<<<<< HEAD
+
 	}
 	
 	@RequestMapping("/HTML and CSS")
@@ -250,6 +251,7 @@ public class HomeController {
 		
 		
 		
+
 		for (Registration p : data)
 		{
 			System.out.println(p.getCourses());
@@ -286,26 +288,22 @@ public class HomeController {
 			if(p.getCourses().equals("Go"))
 			{
 				System.out.println("In If Block");
-				
 				m.addAttribute("data", data);
 				return "success";
 			}
-			
 		}
-		
-		
 		return "success";
-	}
-
-
-
-=======
 	 }
 	
 	
 	
->>>>>>> 714c154febee48c6684d93163d9c273c3c1e5fe6
 
-	}
+
+	 }
+	
+	
+	
+
+	
 
 

@@ -224,11 +224,11 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Newsletter</h4>
-<<<<<<< Updated upstream
+
                 <p class="mb-4">Join our newsletter to receive exclusive content and discover how Web Core Stone can empower your IT journey.</p>
 =======
                 <p class="mb-4">Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
->>>>>>> Stashed changes
+
                 <div class="w-100 mb-3">
                     <div class="input-group">
                         <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
@@ -237,11 +237,11 @@
                         </div>
                     </div>
                 </div>
-<<<<<<< Updated upstream
+
                 <i></i>
-=======
+
                 <i>Lorem sit sed elitr sed kasd et</i>
->>>>>>> Stashed changes
+
             </div>
         </div>
     </div>

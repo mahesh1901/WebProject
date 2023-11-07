@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.dialect.MySQL55Dialect;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -81,6 +82,8 @@ public class HomeServiceimp implements HomeServicei
 		
 		ri.deleteById(id);
 		
+		
+		
 	}
 
 	@Override
@@ -112,16 +115,13 @@ public class HomeServiceimp implements HomeServicei
 			return al;
 	}
 
-<<<<<<< HEAD
+
 	@Override
 	public void saveEnquiryData(Enquiryform e) {
 		re.save(e);
 		
 	}
-=======
-	
->>>>>>> 714c154febee48c6684d93163d9c273c3c1e5fe6
-	
+
 	
 	
 	

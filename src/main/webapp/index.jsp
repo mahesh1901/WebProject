@@ -382,7 +382,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Mahesh Patil</h4>
-                        <p class="m-0">CEO, Founder</p>
+                        <p class="m-0">Team Lead</p>
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
@@ -398,7 +398,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Prasad Jadhav</h4>
-                        <p class="m-0">Designer</p>
+                        <p class="m-0">Frontend Developer</p>
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
@@ -414,7 +414,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Vijay Patil</h4>
-                        <p class="m-0">Developer</p>
+                        <p class="m-0">Fullstack JAVA Developer</p>
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
@@ -442,30 +442,30 @@
     <!-- Testimonial Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
-            <h1 class="display-4 text-uppercase text-center mb-5">Our Client's Say</h1>
+            <h1 class="display-4 text-uppercase text-center mb-5">Our Student Say</h1>
             <div class="owl-carousel testimonial-carousel">
                 <div class="testimonial-item position-relative text-center rounded p-4">
                     <img class="img-fluid rounded mx-auto my-4" src="img/testimonial-1.jpg" alt="">
-                    <h5 class="text-uppercase">Client Name</h5>
-                    <p class="text-uppercase">Profession</p>
-                    <p class="text-secondary">Tempor lorem dolor sea et ipsum, lorem justo kasd dolore vero eos. Lorem duo ipsum sea amet et clita dolor</p>
+                    <h5 class="text-uppercase">Prasad</h5>
+                    <p class="text-uppercase">Web Developer</p>
+                    <p class="text-secondary">This Is The Best Class I Have Visited they Provides Best Teaching Staff And Faclities</p>
                 </div>
                 <div class="testimonial-item position-relative text-center rounded p-4">
                     <img class="img-fluid rounded mx-auto my-4" src="img/testimonial-2.jpg" alt="">
-                    <h5 class="text-uppercase">Client Name</h5>
-                    <p class="text-uppercase">Profession</p>
+                    <h5 class="text-uppercase">Vinay Shinde</h5>
+                    <p class="text-uppercase">Web Developer</p>
                     <p class="text-secondary">Tempor lorem dolor sea et ipsum, lorem justo kasd dolore vero eos. Lorem duo ipsum sea amet et clita dolor</p>
                 </div>
                 <div class="testimonial-item position-relative text-center rounded p-4">
                     <img class="img-fluid rounded mx-auto my-4" src="img/testimonial-3.jpg" alt="">
-                    <h5 class="text-uppercase">Client Name</h5>
-                    <p class="text-uppercase">Profession</p>
+                    <h5 class="text-uppercase">Gaurav Chavan</h5>
+                    <p class="text-uppercase">Backend Developer</p>
                     <p class="text-secondary">Tempor lorem dolor sea et ipsum, lorem justo kasd dolore vero eos. Lorem duo ipsum sea amet et clita dolor</p>
                 </div>
                 <div class="testimonial-item position-relative text-center rounded p-4">
                     <img class="img-fluid rounded mx-auto my-4" src="img/testimonial-4.jpg" alt="">
-                    <h5 class="text-uppercase">Client Name</h5>
-                    <p class="text-uppercase">Profession</p>
+                    <h5 class="text-uppercase">Mayur Gangurde</h5>
+                    <p class="text-uppercase">Backend Developer</p>
                     <p class="text-secondary">Tempor lorem dolor sea et ipsum, lorem justo kasd dolore vero eos. Lorem duo ipsum sea amet et clita dolor</p>
                 </div>
             </div>
@@ -480,7 +480,7 @@
             <div class="col-12 px-0" style="height: 500px;">
                 <div class="position-relative h-100">
                     <iframe class="position-relative w-100 h-100"
-                        src="https://www.google.com/maps/@18.4909208,73.8066048,15z?entry=ttu"
+                        src="https://maps.app.goo.gl/vm3z4z46N1iwaCzf7"
                         frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
                 </div>
@@ -529,11 +529,9 @@
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="index" class="navbar-brand">
-<<<<<<< Updated upstream
-                    <h1 class="m-0 mt-n2 text-white display-5">WebCoreStone</h1>
-=======
+<!--                     <h1 class="m-0 mt-n2 text-white display-5">WebCoreStone</h1>
+ -->
                     <h1 class="m-0 mt-n2 text-white display-4">WebCoreStone</h1>
->>>>>>> Stashed changes
                 </a>
                 <p> IT institute offering a diverse range of hands-on IT courses, equipping students with the skills to thrive in the tech industry</p>
                 <h6 class="text-uppercase text-white py-2">Follow Us</h6>
@@ -578,7 +576,7 @@
         </div>
     </div>
     <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
-        <p class="mb-2 text-center text-white-50">&copy; <a href="#">WebCoreStone</a>. All Rights Reserved.</p>
+        <p class="mb-2 text-center text-white-50">&copy; <a href="index">WebCoreStone</a>. All Rights Reserved.</p>
         <p class="m-0 text-center text-white-50">Designed by <a href="https://htmlcodex.com">Strategic_Five</a></p>
     </div>
     <!-- Footer End -->
