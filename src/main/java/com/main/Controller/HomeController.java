@@ -325,11 +325,16 @@ public class HomeController {
 
 
 
+<<<<<<< Updated upstream
 	 }
+=======
+	 
+>>>>>>> Stashed changes
 	
 	
 	
 
+<<<<<<< Updated upstream
 
 	 
 	
@@ -337,5 +342,8 @@ public class HomeController {
 	
 
 
+=======
+	}
+>>>>>>> Stashed changes
 
 
