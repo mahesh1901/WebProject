@@ -49,7 +49,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="team" class="dropdown-item active">Meat The Team</a>
+                            <a href="team" class="dropdown-item active">Meet Our Team</a>
                             <a href="testimonial" class="dropdown-item">Strategic_Five</a>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Mahesh Patil</h4>
-                        <p class="m-0">CEO, Founder</p>
+                        <p class="m-0">Team Leader</p>
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
@@ -114,7 +114,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Prasad Jadhav</h4>
-                        <p class="m-0">Designer</p>
+                        <p class="m-0"></p>
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
@@ -130,7 +130,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h4 class="text-uppercase">Vijay Patil</h4>
-                        <p class="m-0">Developer</p>
+                        <p class="m-0"></p>
                     </div>
                 </div>
                 <div class="team-item rounded overflow-hidden">
@@ -145,10 +145,28 @@
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h4 class="text-uppercase">Paul Watson</h4>
-                        <p class="m-0">Marketer</p>
+                        <h4 class="text-uppercase">Ganesh Ambore</h4>
+                        <p class="m-0">r</p>
                     </div>
                 </div>
+                
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h4 class="text-uppercase">Shubham Hole</h4>
+                        <p class="m-0">r</p>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -160,9 +178,9 @@
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="index" class="navbar-brand">
-                    <h1 class="m-0 mt-n2 text-white display-4">DOT.NET</h1>
+                    <h1 class="m-0 mt-n2 text-white display-4">WebcoreStone</h1>
                 </a>
-                <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
+                <p> IT institute offering a diverse range of hands-on IT courses, equipping students with the skills to thrive in the tech industry</p>
                 <h6 class="text-uppercase text-white py-2">Follow Us</h6>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -173,7 +191,7 @@
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
-                <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
+                <p>Contact us at Web Core Stone IT Institute to embark on your journey towards IT excellence.</p>
                 <p><i class="fa fa-map-marker-alt text-white mr-2"></i>KarveNager, Pune, BHARAT</p>
                 <p><i class="fa fa-phone-alt text-white mr-2"></i>+91 9766004061</p>
                 <p><i class="fa fa-envelope text-white mr-2"></i>WebCoreStone@123gmail.com</p>
@@ -181,17 +199,24 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Quick Links</h4>
                 <div class="d-flex flex-column justify-content-start">
+<<<<<<< Updated upstream
                    <a class="text-white-50 mb-2" href="index"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
                     <a class="text-white-50 mb-2" href="about"><i class="fa fa-angle-right text-white mr-2"></i>About Us</a>
                     <a class="text-white-50 mb-2" href="service"><i class="fa fa-angle-right text-white mr-2"></i>Our Services</a>
                     <a class="text-white-50 mb-2" href="Registration"><i class="fa fa-angle-right text-white mr-2"></i>Registration</a>
+=======
+                    <a class="text-white-50 mb-2" href="index"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
+                    <a class="text-white-50 mb-2" href="about"><i class="fa fa-angle-right text-white mr-2"></i>About Us</a>
+                    <a class="text-white-50 mb-2" href="service"><i class="fa fa-angle-right text-white mr-2"></i>Our Services</a>
+                    <a class="text-white-50 mb-2" href="course"><i class="fa fa-angle-right text-white mr-2"></i>Pricing Plan</a>
+>>>>>>> Stashed changes
                     <a class="text-white-50 mb-2" href="team"><i class="fa fa-angle-right text-white mr-2"></i>Meet The Team</a>
                     <a class="text-white-50" href="contact"><i class="fa fa-angle-right text-white mr-2"></i>Contact Us</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-uppercase text-white mb-4">Newsletter</h4>
-                <p class="mb-4">Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
+                <p class="mb-4">Join our newsletter to receive exclusive content and discover how Web Core Stone can empower your IT journey.</p>
                 <div class="w-100 mb-3">
                     <div class="input-group">
                         <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
@@ -200,7 +225,6 @@
                         </div>
                     </div>
                 </div>
-                <i>Lorem sit sed elitr sed kasd et</i>
             </div>
         </div>
     </div>
