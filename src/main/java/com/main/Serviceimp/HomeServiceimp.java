@@ -117,16 +117,13 @@ public class HomeServiceimp implements HomeServicei
 	}
 
 
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 	@Override
 	public void saveEnquiryData(Enquiryform e) {
 		re.save(e);
 		
 	}
-<<<<<<< Updated upstream
+
 
 	@Override
 	public List<Enquiryform> getenAllData() {
@@ -137,11 +134,7 @@ public class HomeServiceimp implements HomeServicei
 		return re.findAll();
 	}
 
-=======
-	
-	
->>>>>>> Stashed changes
-	
+
 	
 	
 

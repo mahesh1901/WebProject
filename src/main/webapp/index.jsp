@@ -1,3 +1,4 @@
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
@@ -488,7 +489,7 @@
                 <a href="index" class="navbar-brand">
 <!--                     <h1 class="m-0 mt-n2 text-white display-5">WebCoreStone</h1>
  -->
-                    <h1 class="m-0 mt-n2 text-white display-4">WebCoreStone</h1>
+                    <h1 class="m-0 mt-n2 text-white display-5">WebCoreStone</h1>
                 </a>
                 <p> IT institute offering a diverse range of hands-on IT courses, equipping students with the skills to thrive in the tech industry</p>
                 <h6 class="text-uppercase text-white py-2">Follow Us</h6>

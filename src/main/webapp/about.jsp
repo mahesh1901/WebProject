@@ -144,11 +144,11 @@
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
                 <a href="index" class="navbar-brand">
-<<<<<<< Updated upstream
-                    <h1 class="m-0 mt-n2 text-white display-5">WebCoreStone</h1>
-=======
-                    <h1 class="m-0 mt-n2 text-white display-4">WebCoreStone</h1>
->>>>>>> Stashed changes
+
+                    <h1 class="m-0 mt-n2 text-white display-6">WebCoreStone</h1>
+
+                    
+
                 </a>
                 <p>IT institute offering a diverse range of hands-on IT courses, equipping students with the skills to thrive in the tech industry</p>
                 <h6 class="text-uppercase text-white py-2">Follow Us</h6>
@@ -192,7 +192,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
+    <div class="container-fluid py-4 px-sm-3 px-md-6" style="background: #111111;">
         <p class="mb-2 text-center text-white-50">&copy; <a href="#">WebCoreStone</a>. All Rights Reserved.</p>
         <p class="m-0 text-center text-white-50">Designed by <a href="https://htmlcodex.com">Strategic_Five</a></p>
     </div>
